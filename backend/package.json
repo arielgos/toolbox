@@ -1,0 +1,26 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "Toolbox Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "scan": "standard index.js "
+  },
+  "keywords": [
+    "toolbox",
+    "challenge",
+    "nodejs",
+    "react"
+  ],
+  "author": "arielgos",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "standard": "^17.1.0"
+  }
+}
