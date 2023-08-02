@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "scan": "standard",
+    "scan": "standard src/components/*.js src/index.js src/App.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

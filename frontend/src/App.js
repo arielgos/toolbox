@@ -8,7 +8,7 @@ import Files from './components/Files'
 const WS_URL = 'http://localhost:8080/files'
 const WS_FILENAME_PARAM = 'fileName'
 
-function App() {
+function App () {
   const [files, setFiles] = useState([])
   const [fileName, setFileName] = useState('')
   const [withBlanks, setWithBlanks] = useState(false)
