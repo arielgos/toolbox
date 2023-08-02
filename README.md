@@ -11,6 +11,9 @@ This projects was build for the Toolbox technical challenge, the project contain
 - docker-compose.yml (Docker compose file)
 
 ## Requirements
+
+Docker installed
+
 Ports `8080` and `3000` should be available for both the backend and the frontend containers execution.
 
 ## Run the project
