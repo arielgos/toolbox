@@ -2,31 +2,35 @@
 
 This projects was build for the Toolbox technical challenge, the project contains:
 
-- backend (node 14 / backend app)
+- backend (node 14 / backend app).
     - 3 web services
-        - / : check the health of the web services
-        - /files : return the list of the files also contains a query parameter `fileName`
-        - /files/list : return the raw list of the files comming from the external service
+        - / : check the health of the web services.
+        - /files : return the list of the files also contains a query parameter `fileName`.
+        - /files/list : return the raw list of the files comming from the external service.
 - frontend (node 16 / react app)
-- docker-compose.yml (Docker compose file)
+- docker-compose.yml (Docker compose file).
 
 ## Requirements
 
-Docker installed, [download from here if needed](https://www.docker.com)
+Docker installed, [download from here if needed](https://www.docker.com).
+
+node 14 needed if you plan to execute the backend manually or a additional command over the backend directory, [download from here if needed](https://nodejs.org/es/blog/release/v14.17.3).
+
+node 16 needed if you plan to execute the frontend manually or a additional command over the frontend directory, [download from here if needed](https://nodejs.org/ja/blog/release/v16.20.0).
 
 Ports `8080` and `3000` should be available for both the backend and the frontend containers execution.
 
 ## Run the project
 
-Download or clone the repository
+Download or clone the repository.
 
-Go to the downloaded/cloned directory
+Go to the downloaded/cloned directory.
 
 #### Run with Docker compose
 
 `docker compose up`
 
-When the docker compose command runs you should see to containers one for the backend (node 14) and one for the frontend (node 16)
+When the docker compose command runs you should see to containers one for the backend (node 14) and one for the frontend (node 16).
 
 The project was build to run with just the docker compose command, you should see the build process from the command line when the docker compose commands are executed.
 
