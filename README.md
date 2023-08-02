@@ -5,8 +5,8 @@ This projects was build for the Toolbox code challenge, the project contains:
 - backend (node 14 / backend app)
     - 3 web services
         - / : check the health of the web services
-        - /files : return the list of files contains a query parameter `fileName`
-        - /files/list : return the raw list for the external service
+        - /files : return the list of the files also contains a query parameter `fileName`
+        - /files/list : return the raw list of the files comming from the external service
 - frontend (node 16 / react app)
 - docker-compose.yml (Docker compose file)
 
