@@ -20,6 +20,8 @@ Ports `8080` and `3000` should be available for both the backend and the fronten
 
 Download or clone the repository
 
+Go to the downloaded/cloned directory
+
 #### Run with Docker compose
 
 `docker compose up`
