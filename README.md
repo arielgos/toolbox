@@ -21,6 +21,8 @@ Download or clone the repository
 
 `docker compose up`
 
+When the docker compose command runs you should see to containers one for the backend (node 14) and one for the frontend (node 16)
+
 The project was build to run with just the docker compose command, you should see the build process from the command line when the docker compose commands are executed.
 
 #### Run manually
