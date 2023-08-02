@@ -12,7 +12,7 @@ This projects was build for the Toolbox technical challenge, the project contain
 
 ## Requirements
 
-Docker installed
+Docker installed, [download from here if needed](https://www.docker.com)
 
 Ports `8080` and `3000` should be available for both the backend and the frontend containers execution.
 
