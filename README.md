@@ -10,10 +10,10 @@ This projects was build for the Toolbox code challenge, the project contains:
 - frontend (node 16 / react app)
 - docker-compose.yml (Docker compose file)
 
-#### Requirements
+## Requirements
 Ports `8080` and `3000` should be available for both the backend and the frontend containers execution.
 
-### Run the project
+## Run the project
 
 Download or clone the repository
 
@@ -27,6 +27,8 @@ The project was build to run with just the docker compose command, you should se
 
 #### Run manually
 
+Go to the specific directory (backend or frontend) and then you can run:
+
 - backend: port `8080`
     - `npm install` download dependencies
     - `npm start` runs the app
@@ -37,7 +39,10 @@ The project was build to run with just the docker compose command, you should se
     - `npm install -g serve` server static content
     - `server -s build` runs the app
 
-### Extra commands
+## Extra commands
+
+Go to the specific directory (backend or frontend) and then you can run:
+
 - backend: port `8080`
     - `npm start` runs the app
     - `npm test` runs the mocha and && chai tests
