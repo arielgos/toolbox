@@ -1,6 +1,6 @@
 # Toolbox Challenge
 
-This projects was build for the Toolbox code challenge, the project contains:
+This projects was build for the Toolbox technical challenge, the project contains:
 
 - backend (node 14 / backend app)
     - 3 web services
