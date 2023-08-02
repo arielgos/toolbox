@@ -8,7 +8,7 @@ import Files from './components/Files'
 const WS_URL = 'http://localhost:8080/files'
 const WS_FILENAME_PARAM = 'fileName'
 
-function App () {
+function App() {
   const [files, setFiles] = useState([])
   const [fileName, setFileName] = useState('')
   const [withBlanks, setWithBlanks] = useState(false)
@@ -30,9 +30,10 @@ function App () {
           React Test App
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <Form onSubmit={(event) => { event.preventDefault() }}>
+
+      <Form onSubmit={(event) => { event.preventDefault() }}>
+        <Row>
+          <Col xs={7} sm={9}>
             <Form.Control
               placeholder='Enter a file name to trigger a search'
               id='FileName'
@@ -42,20 +43,21 @@ function App () {
                 setFileName(event.target.value)
               }}
             />
-          </Form>
-        </Col>
-        <Col>
-          <Form.Check
-            type='switch'
-            id='withBlanks'
-            label='With Blanks'
-            defaultChecked={withBlanks}
-            onChange={() => {
-              setWithBlanks(!withBlanks)
-            }}
-          />
-        </Col>
-      </Row>
+          </Col>
+          <Col xs={5} sm={3}>
+            <Form.Check
+              type='switch'
+              id='withBlanks'
+              label='With Blanks'
+              defaultChecked={withBlanks}
+              onChange={() => {
+                setWithBlanks(!withBlanks)
+              }}
+            />
+          </Col>
+        </Row>
+      </Form>
+
       <Row>
         <Col>
           <Files
